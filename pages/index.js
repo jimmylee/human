@@ -53,7 +53,11 @@ function Home(props) {
           </div>
         </div>
 
-        <img className={styles.img} src="/splash.png" alt="NEAR PROTOCOL 2021" />
+        <img
+          className={styles.img}
+          src="https://next-s3-public.s3-us-west-2.amazonaws.com/splash.png"
+          alt="NEAR PROTOCOL 2021"
+        />
 
         <div className={styles.center}>
           <h2 className={styles.title} style={{ letterSpacing: "1.2px", color: "#444" }}>
