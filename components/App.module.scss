@@ -1,0 +1,154 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 88px;
+}
+
+.gridItem {
+  font-size: 3rem;
+  height: 188px;
+  width: 278px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #121212;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: 200ms ease all;
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:visited {
+      color: #fff;
+    }
+  }
+}
+
+.top {
+  height: 72px;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 12px 20px 12px 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.topLeft {
+  flex-shrink: 0;
+}
+
+.topRight {
+  min-width: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions {
+  margin-top: 24px;
+}
+
+.center {
+  max-width: 568px;
+  margin: 0 auto 0 auto;
+  padding: 48px 24px 48px 24px;
+  text-align: center;
+}
+
+.essay {
+  max-width: 488px;
+  margin: 0 auto 0 auto;
+  padding: 48px 24px 48px 24px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.hero {
+  font-family: "Body";
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 0.8rem;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  color: #726e6e;
+  text-transform: uppercase;
+  font-famliy: "Sans-Book";
+}
+
+.paragraph {
+  font-family: "Body";
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.body {
+  font-family: "Body";
+  font-size: 1.225rem;
+  line-height: 1.55;
+  margin-top: 24px;
+
+  i {
+    font-style: normal;
+    color: #f38e6e;
+  }
+
+  strong {
+    font-weight: 400;
+    color: var(--color-background-button);
+
+    &:hover {
+      color: var(--color-background-button);
+    }
+
+    &:visited {
+      color: var(--color-background-button);
+    }
+  }
+}
+
+.img {
+  display: block;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1024px;
+  margin: 0 auto 0 auto;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.col {
+  width: 33.33%;
+  padding: 24px 24px 24px 24px;
+  text-align: center;
+  color: #cac5c4;
+
+  @media (max-width: 768px) {
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+}

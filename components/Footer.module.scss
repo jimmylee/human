@@ -1,0 +1,19 @@
+.footer {
+  max-width: 768px;
+  font-size: 0.7rem;
+  margin: 0 auto 0 auto;
+  padding: 16px 24px 88px 24px;
+  text-align: center;
+
+  a {
+    color: var(--color-background-button);
+
+    &:hover {
+      color: var(--color-background-button);
+    }
+
+    &:visited {
+      color: var(--color-background-button);
+    }
+  }
+}
