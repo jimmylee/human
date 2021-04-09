@@ -11,8 +11,9 @@ import Footer from "~/components/Footer";
 
 const PROJECTS = [
   { name: "Paras", href: "https://paras.id/" },
+  { name: "DAORecords", href: "https://www.daorecords.org/" },
   { name: "Berry Club", href: "https://berryclub.io/" },
-  { name: "Flux", href: "https://fluxprotocol.eth.link/#!/" },
+  { name: "Pulse", href: "https://pulsemarket.eth.link/#!/" },
   { name: "Hash Rush", href: "https://hashrush.com/#/" },
   { name: "OutPlay", href: "https://outplay.games/" },
   { name: "Stake.GG", href: "https://www.stake.gg/" },
@@ -110,15 +111,15 @@ function Home(props) {
           </p>
           <p className={styles.body}>
             {" "}
-            Today we are proudly are moving from a place where people are mainly buying and selling
+            Today we are proudly moving from a place where people are mainly buying and selling
             digital assets to a space where the masses are using blockchain-powered apps to
             participate in an economy that has gatekept them from having true economic freedom.
           </p>
           <p className={styles.body}>
             <strong>The Human Guild's</strong> purpose is to obliterate the barriers and gatekeeping
             that prevent people from creating what they love. We are overjoyed to have the
-            priviledge of helping the next generation of founders and creators who know what they
-            want do what they want.{" "}
+            priviledge of helping the next generation of passion driven founders achieve what they
+            want.{" "}
           </p>{" "}
           <p className={styles.body}>Thats why we exist. Come create with us!</p>
         </div>
