@@ -132,6 +132,14 @@ body {
   scrollbar-width: none;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 
+  .page {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms ease all;
+    transform: translateY(-8px);
+  }
+
   ::-webkit-scrollbar {
     display: none;
   }
