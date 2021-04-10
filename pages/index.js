@@ -144,6 +144,12 @@ function Home(props) {
           ))}
         </div>
 
+        <img
+          className={styles.laptop}
+          src="https://next-s3-public.s3-us-west-2.amazonaws.com/paras-laptop.png"
+          alt="NEAR AND PARAS AND IPFS"
+        />
+
         <div className={styles.center}>
           <h2 className={styles.title} style={{ letterSpacing: "1.2px", color: "#444" }}>
             Open invitation
