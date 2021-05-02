@@ -25,6 +25,7 @@ const PROJECTS = [
   { name: "MintGate", href: "https://www.mintgate.app/" },
   { name: "Vezt", href: "https://www.vezt.co/" },
   { name: "Zod", href: "https://www.zod.tv/" },
+  { name: "Pixel Party", href: "https://www.near-pixelparty.co/" },
 ];
 
 function Home(props) {
