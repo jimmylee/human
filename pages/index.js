@@ -92,8 +92,8 @@ function Home(props) {
           </h3>
 
           <div className={styles.actions}>
-            <Button href="https://discord.gg/bUu2hcdzxW">
-              Join our Discord
+            <Button href="https://t.me/HumanGuildNear">
+              Join our Telegram
             </Button>
           </div>
         </div>
@@ -208,8 +208,8 @@ function Home(props) {
           </h3>
 
           <div className={styles.actions}>
-            <Button href="https://discord.gg/bUu2hcdzxW">
-              Join our Discord
+            <Button href="https://t.me/HumanGuildNear">
+              Join our Telegram
             </Button>
           </div>
         </div>
